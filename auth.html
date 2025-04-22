@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!--====== Title ======-->
+    <title>Login Calon Santri Baru PP. Al-Qodiri Jember</title>
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/svg" />
+
+    <!--====== CSS ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/lineicons.css" />
+    <link rel="stylesheet" href="assets/scss/starter.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/scss/navbars/navbar-02.css" />
+    <link rel="stylesheet" href="../assets/scss/sign-in-up/sign-in-up-02.css" />
+    <link rel="stylesheet" href="../assets/scss/footers/footer-02.css" />
+    <link rel="stylesheet" href="../assets/scss/cards/card-02.css" />
+  </head>
+
+  <body>
+    <div class="container"></div>
+
+    <section style="max-height: 800px; display: flex; align-items: center; min-height: 100vh" class="card-area d-flex justify-content-center signin-area signin-two">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="image text-center mt-5 mb-4">
+            <img src="../assets/images/logo.png" width="300px" alt="Logo" />
+          </div>
+          <div class="col-lg-5">
+            <h4 class="signin-title">Login Santri Baru</h4>
+            <form action="#">
+              <div class="signin-form-two form-style-two light-rounded-buttons">
+                <div class="form-input">
+                  <label>Email</label>
+                  <div class="input-items default">
+                    <input type="text" placeholder="Email" />
+                    <i class="lni lni-envelope"></i>
+                  </div>
+                </div>
+                <!-- form input -->
+                <div class="form-input">
+                  <label>Password</label>
+                  <div class="input-items default">
+                    <input type="password" placeholder="Password" />
+                    <i class="lni lni-key"></i>
+                  </div>
+                </div>
+                <!-- form input -->
+                <div class="form-input light-rounded-buttons">
+                  <button class="btn primary-btn bg-success" type="submit">Login</button>
+                </div>
+                <!-- form input -->
+              </div>
+              <!-- signin form two -->
+            </form>
+          </div>
+          <div class="col-lg-5">
+            <div class="signin-content light-rounded-buttons">
+              <h4 class="signin-title">Buat Akun Baru</h4>
+              <p class="text">Silakan Klik Dibawah ini untuk melakukan registrasi akun santri baru</p>
+              <div class="form-input light-rounded-buttons">
+                <a href="javascript:void(0)" class="btn primary-btn bg-success">Daftar</a>
+              </div>
+              <!-- form input -->
+            </div>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+
+      <!-- container -->
+    </section>
+
+    <!-- floating WA -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+      <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    <!-- floating WA -->
+
+    <!-- Scripts -->
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Close navbar-collapse when clicked
+      let navbarTogglerOne = document.querySelector(".navbar-one .navbar-toggler");
+      if (navbarTogglerOne) {
+        navbarTogglerOne.addEventListener("click", function () {
+          navbarTogglerOne.classList.toggle("active");
+        });
+      }
+
+      window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar-area");
+        if (window.scrollY > 50) {
+          // Ubah angka 50 sesuai kebutuhan
+          navbar.classList.add("navbar-scrolled");
+        } else {
+          navbar.classList.remove("navbar-scrolled");
+        }
+      });
+    </script>
+
+    <style></style>
+  </body>
+</html>
